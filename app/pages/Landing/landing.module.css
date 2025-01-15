@@ -1,0 +1,13 @@
+.container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+.hero {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+}

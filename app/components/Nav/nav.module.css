@@ -1,15 +1,21 @@
 .container {
   display: flex;
-  gap: 9rem;
-  margin: 2rem 8rem;
+  gap: 5rem;
+  padding: 2rem 4rem 2rem 8rem;
   justify-content: end;
   align-items: center;
+  z-index: 90;
+  position: absolute;
+  background-color: var(--background);
+  width: 100vw;
+  height: 5rem;
 }
 
 .link {
   text-decoration: none;
   color: var(--text);
   font-family: "Fraunces", serif;
+  font-size: 0.9rem;
 }
 
 .link:hover {

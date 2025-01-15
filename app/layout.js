@@ -3,6 +3,7 @@ import "./globals.css";
 
 // COMPONENTS
 import Nav from "./components/Nav/Nav";
+import SideNav from "./components/SideNav/SideNav";
 
 const fraunces = Fraunces({
   variable: "--font-fraunces",
@@ -25,6 +26,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={`${fraunces.variable} ${openSans.variable}`}>
         <Nav />
+        <SideNav />
         {children}
       </body>
     </html>

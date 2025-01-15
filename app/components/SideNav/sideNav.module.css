@@ -1,0 +1,31 @@
+.container {
+  width: 5rem;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+  justify-content: end;
+  z-index: 90;
+  position: absolute;
+  background-color: var(--background);
+}
+
+.contact {
+  color: var(--accent);
+  font-family: "Open Sans", sans-serif;
+  font-weight: light;
+  writing-mode: vertical-lr;
+  text-orientation: upright;
+}
+
+.socials {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    display: none;
+  }
+}
