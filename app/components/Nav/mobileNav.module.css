@@ -1,0 +1,66 @@
+.menuContainer {
+  display: flex;
+  justify-content: end;
+  height: 4rem;
+  width: 100vw;
+}
+
+.menuIcon {
+  width: 2rem;
+  height: 2rem;
+  fill: var(--text);
+  z-index: 999;
+  margin: 1.5rem;
+  cursor: pointer;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  align-items: center;
+  height: 100vh;
+  justify-content: start;
+  margin-top: 5rem;
+}
+
+.linkButton {
+  background-color: var(--accent);
+  color: var(--altText);
+  padding: 1.5rem 9rem;
+  border: none;
+  border-radius: 0.3rem;
+  font-size: 1.5rem;
+}
+
+.linkButton:active {
+  background-color: var(--buttonHover);
+}
+
+.ctaButton {
+  background-color: var(--background);
+  color: var(--accent);
+  border: 0.3rem solid var(--accent);
+  padding: 1rem 5rem;
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 769px) {
+  .menuContainer,
+  .container {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .linkButton {
+    padding: 1rem 7rem;
+    font-size: 1rem;
+  }
+
+  .ctaButton {
+    padding: 0.7rem 3rem;
+    font-size: 0.8rem;
+  }
+}

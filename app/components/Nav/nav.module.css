@@ -1,0 +1,57 @@
+.container {
+  display: flex;
+  gap: 9rem;
+  margin: 2rem 8rem;
+  justify-content: end;
+  align-items: center;
+}
+
+.link {
+  text-decoration: none;
+  color: var(--text);
+  font-family: "Fraunces", serif;
+}
+
+.link:hover {
+  color: var(--accent);
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.button {
+  padding: 0.9rem 1.5rem;
+  font-family: "Fraunces", serif;
+  border: 0;
+  background-color: var(--accent);
+  color: var(--altText);
+  border-radius: 0.2rem;
+  letter-spacing: 0.1rem;
+}
+
+.button:hover {
+  background-color: var(--buttonHover);
+  color: var(--altText);
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1200px) {
+  .container {
+    display: flex;
+    gap: 5rem;
+    margin: 2rem 4rem;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .container {
+    display: flex;
+    gap: 4rem;
+    margin: 2rem 4rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    display: none;
+  }
+}
