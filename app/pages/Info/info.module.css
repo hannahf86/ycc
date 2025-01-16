@@ -14,3 +14,11 @@
   text-decoration-thickness: 8px;
   text-align: center;
 }
+
+@media screen and (max-width: 768px) {
+  .container {
+    margin-left: 0rem;
+    height: auto;
+    padding-bottom: 5rem;
+  }
+}

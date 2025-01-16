@@ -2,10 +2,6 @@
 // REACT
 import React from "react";
 
-// NEXT
-import Image from "next/image";
-import Link from "next/link";
-
 // STYLES
 import styles from "./info.module.css";
 

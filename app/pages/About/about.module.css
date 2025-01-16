@@ -3,8 +3,8 @@
   display: flex;
   padding: 4rem 8rem;
   gap: 8rem;
-  height: 100vh;
   margin-top: 4rem;
+  margin-bottom: 4rem;
 }
 
 .picContainer {
@@ -88,4 +88,142 @@
   color: var(--altText);
   border: var(--buttonActive) solid 3px;
   cursor: pointer;
+}
+
+/* ---------------- RESPONSIVE DESIGN ---------------- */
+
+@media screen and (max-width: 1630px) {
+  .container {
+    margin-top: 4rem;
+  }
+
+  .title {
+    font-size: 4.5rem;
+  }
+
+  .text {
+    font-size: 2rem;
+    line-height: 5rem;
+  }
+}
+
+@media screen and (max-width: 1500px) {
+  .container {
+    margin-top: 3rem;
+    padding: 4rem 6rem;
+    gap: 6rem;
+  }
+
+  .title {
+    font-size: 4.3rem;
+  }
+
+  .text {
+    font-size: 2rem;
+    line-height: 4rem;
+  }
+
+  .button {
+    padding: 0.9rem 3rem;
+    letter-spacing: 0.1rem;
+    font-size: 1.2rem;
+    margin-right: 6rem;
+  }
+
+  .ghostButton {
+    padding: 0.9rem 5rem;
+    letter-spacing: 0.1rem;
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .title {
+    font-size: 2rem;
+    text-decoration-thickness: 3px;
+  }
+
+  .text {
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+
+  .buttonContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .button {
+    padding: 0.7rem 3rem;
+    letter-spacing: 0.1rem;
+    font-size: 1rem;
+    margin-right: 0;
+  }
+
+  .ghostButton {
+    font-size: 1rem;
+    padding: 0.7rem 3rem;
+  }
+
+  .text {
+    font-size: 1.2rem;
+    line-height: 3rem;
+    margin-bottom: 1rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .picContainer {
+    margin-bottom: 0rem;
+  }
+
+  .title {
+    font-size: 2rem;
+    text-decoration-thickness: 3px;
+    text-align: center;
+  }
+
+  .text {
+    font-size: 2rem;
+    line-height: 2rem;
+    text-align: center;
+  }
+
+  .buttonContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .button {
+    padding: 0.7rem 3rem;
+    letter-spacing: 0.1rem;
+    font-size: 1rem;
+    margin-right: 0;
+    margin-top: 3rem;
+  }
+
+  .ghostButton {
+    font-size: 1rem;
+    padding: 0.7rem 3rem;
+  }
+
+  .text {
+    font-size: 1.2rem;
+    line-height: 3rem;
+    margin-bottom: 1rem;
+  }
 }
