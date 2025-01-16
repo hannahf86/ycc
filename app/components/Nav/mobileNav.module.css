@@ -3,6 +3,7 @@
   justify-content: end;
   height: 4rem;
   width: 100vw;
+  align-items: center;
 }
 
 .menuIcon {
