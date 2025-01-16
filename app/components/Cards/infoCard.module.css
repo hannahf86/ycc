@@ -1,0 +1,55 @@
+.cardContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.container {
+  display: grid;
+  grid-template-rows: 6;
+  flex: 1;
+  padding: 2rem;
+  justify-content: center;
+  align-items: space-between;
+  background-color: var(--background);
+  border-radius: 0.3rem;
+  border: var(--accent) solid 5px;
+}
+
+.image {
+  margin: 3rem 0;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  align-self: center;
+  justify-self: center;
+}
+
+.title {
+  color: var(--accent);
+  text-align: center;
+  font-size: 1.4rem;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 1rem;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+
+.description {
+  font-size: 1rem;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 1rem;
+  text-align: center;
+  grid-row-start: 5;
+}
+
+.furtherInfo {
+  grid-row-start: 6;
+  text-align: center;
+  font-size: 0.9rem;
+  font-style: italic;
+}

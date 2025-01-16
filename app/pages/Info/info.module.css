@@ -1,0 +1,16 @@
+.container {
+  background-color: var(--foreground);
+  margin-left: 5rem;
+  justify-content: center;
+  height: 100vh;
+}
+
+.title {
+  font-family: "Fraunces", serif;
+  font-size: 5rem;
+  color: var(--altText);
+  padding: 5rem 0 3rem 5rem;
+  text-decoration: underline;
+  text-decoration-thickness: 8px;
+  text-align: center;
+}

@@ -10,7 +10,7 @@ import styles from "./landing.module.css";
 
 const Landing = () => {
   return (
-    <div className={styles.container}>
+    <div id="/" className={styles.container}>
       <Image
         width={0}
         height={0}

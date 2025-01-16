@@ -1,8 +1,9 @@
 :root {
   --background: #e3e2de;
-  --foreground: #101010;
+  --foreground: #242323;
   --accent: #cfa136;
   --buttonHover: #a07b26;
+  --buttonActive: #66542c;
   --text: #101010;
   --altText: #e3e2de;
 }

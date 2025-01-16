@@ -6,7 +6,7 @@
   padding: 1.5rem;
   justify-content: end;
   z-index: 90;
-  position: absolute;
+  position: fixed;
   background-color: var(--background);
   align-items: center;
 }
