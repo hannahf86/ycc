@@ -21,4 +21,9 @@
     height: auto;
     padding-bottom: 5rem;
   }
+
+  .title {
+    font-size: 3rem;
+    padding: 3rem;
+  }
 }
